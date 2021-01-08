@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "start": "webpack",
+    "dev": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel": "6.23.0",
+    "babel-loader": "8.0.2",
     "webpack": "5.11.1",
     "webpack-cli": "4.3.1",
     "webpack-dev-server": "3.11.1"
@@ -21,6 +23,7 @@
     "@babel/node": "7.0.0",
     "@babel/preset-env": "7.0.0",
     "@babel/preset-react": "7.0.0",
-    "@babel/register": "7.0.0"
+    "@babel/register": "7.0.0",
+    "redux": "4.0.0"
   }
 }
