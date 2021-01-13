@@ -27,7 +27,7 @@ export const defaultState = {
     },
     {
       name: 'Write tests',
-      id: 'T1',
+      id: 'T2',
       group: 'G1',
       owner: 'U1',
       isComplete: false,
